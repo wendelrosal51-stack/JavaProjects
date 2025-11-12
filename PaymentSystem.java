@@ -183,7 +183,9 @@ class BankTransfer extends PaymentMethod{
         
 
         while(!authenticUser){
-
+            System.out.print("Enter your account name: ");
+            String name  = userInput.nextLine();
+            System.out.println(name);
         }
     
 
